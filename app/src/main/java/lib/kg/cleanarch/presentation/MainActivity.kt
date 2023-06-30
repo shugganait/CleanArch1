@@ -1,7 +1,8 @@
-package lib.kg.cleanarch
+package lib.kg.cleanarch.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import lib.kg.cleanarch.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
