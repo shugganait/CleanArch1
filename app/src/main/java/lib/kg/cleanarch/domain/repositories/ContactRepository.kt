@@ -1,13 +1,13 @@
 package lib.kg.cleanarch.domain.repositories
 
-import lib.kg.cleanarch.data.models.ContanctEntity
+import lib.kg.cleanarch.data.models.ContactEntity
 
 interface ContactRepository {
-    fun addContact(contactEntity: ContanctEntity)
+    fun addContact(contactEntity: ContactEntity)
 
-    fun getContacts(): List<ContanctEntity>
+    fun getContacts(): List<ContactEntity>
 
-    fun updateContact(contactEntity: ContanctEntity)
+    fun updateContact(contactEntity: ContactEntity)
 
-    fun deleteContact(contactEntity: ContanctEntity)
+    fun deleteContact(contactEntity: ContactEntity)
 }
