@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "contacts")
-data class ContanctEntity(
+data class ContactEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
     val name: String,
