@@ -1,12 +1,21 @@
 package lib.kg.cleanarch.presentation
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import lib.kg.cleanarch.R
+import lib.kg.cleanarch.presentation.base.BaseActivity
+import lib.kg.cleanarch.presentation.base.BaseViewModel
+import lib.kg.cleanarch.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding, BaseViewModel>() {
+
+    override fun inflateViewBinding(): ActivityMainBinding {
+        return ActivityMainBinding.inflate(layoutInflater)
     }
+
+    override fun setUI() {
+        super.setUI()
+    }
+
+    override fun initClickListener() {
+        super.initClickListener()
+    }
+
 }
